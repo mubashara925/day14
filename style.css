@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+section{
+    display: flex;
+  background-color: rgb(161, 110, 212);
+  height: 90vh;
+  width: 90%; 
+  padding: 20px;
+  gap: 20px;
+}
+#child1{
+    height: 90vh;
+    width: 90%;
+    background-color: aqua;
+
+
+}
+#child2{
+    height: 90vh;
+    width: 90%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+#gandchild1, #gandchild2, #gandchild3{
+    height: 30%;
+    width: 100%;
+}
+#gandchild1{
+    background-color: brown;
+}
+#gandchild2{
+    background-color: rgb(125, 8, 235);
+    display: flex;
+    gap: 20px;
+
+}
+#gandchild3{
+    background-color: black;
+}
+#ggandchild1, #ggandchild2{
+    height: 100%;
+    width: 100%;
+    
+}
+#ggandchild1{
+    background-color: rgb(240, 134, 240);
+}
+
+#ggandchild2{
+    background-color: darksalmon;
+}

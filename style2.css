@@ -1,0 +1,40 @@
+section{
+    background-color:cadetblue;
+    height: 90vh;
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+    
+}
+#child1{
+    height: 90vh;
+    width: 90%;
+    background-color: cornflowerblue;
+    
+}
+#gchild1{
+    height: 30vh;
+    width: 100%;
+    background-color: hotpink;
+}
+#gchild2{ 
+    height: 30vh;
+    width: 100%;
+    background-color: darkslategray;
+
+}
+#gchild3{
+    height: 30vh;
+    width: 100%;
+background-color: mediumpurple;
+}
+
+
+#child2{
+    height: 90vh;
+    width: 90%;  
+background-color: indianred;
+}
